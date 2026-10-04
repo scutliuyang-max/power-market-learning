@@ -27,7 +27,11 @@ jobs:
         run: |
           node --check dist/app.js
           node --check dist/data.js
+          node --check dist/planner-engine.js
+          node --check dist/planner-policy.js
+          node --check dist/planner-ui.js
           node --check server.mjs
+          node tests/planner.test.cjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static website
