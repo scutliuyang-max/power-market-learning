@@ -13,7 +13,10 @@
         "bytes": 213520,
         "sha256": "d33327c28e87e874dffd4e56f2777d7ff877ccf3a68bdea72a50d5b5863b5885",
         "pages": 8,
-        "archivedAt": "2026-10-04"
+        "archivedAt": "2026-10-04",
+        "textPath": "documents/doc-001-text.html",
+        "textBytes": 13207,
+        "textSha256": "19c601d25f2da1ca305b8e6a28842f55fce778cdb1b97eb41e4f108927311346"
       }
     ]
   },
@@ -31,7 +34,10 @@
         "bytes": 641987,
         "sha256": "8c41aa22d5a2b06af46266f45f08a18ee600e23fbb0902380e81fc4ecf71f5be",
         "pages": 53,
-        "archivedAt": "2026-10-04"
+        "archivedAt": "2026-10-04",
+        "textPath": "documents/doc-002-text.html",
+        "textBytes": 76055,
+        "textSha256": "0b24affe34d19d28789d235e8bbc3368b9c6bf2b0c0de48858d4f1baa097f63e"
       }
     ]
   },
@@ -66,7 +72,10 @@
         "bytes": 2603176,
         "sha256": "4b7f90c8b56958255bb1ad66529151140039de86de8061b0b02a43f376ce805f",
         "pages": 354,
-        "archivedAt": "2026-10-04"
+        "archivedAt": "2026-10-04",
+        "textPath": "documents/doc-004-text.html",
+        "textBytes": 560018,
+        "textSha256": "1cb8a369d7dc6c2aa745bf860fa391a40663bd9e5e83b417422aad4a11d9acfe"
       }
     ]
   },
@@ -84,7 +93,10 @@
         "bytes": 4132339,
         "sha256": "48a0be85ee44ebe2c2d835f59c0e63cf84fd100a2a4de376e76cb8d272b7c723",
         "pages": 535,
-        "archivedAt": "2026-10-04"
+        "archivedAt": "2026-10-04",
+        "textPath": "documents/doc-005-text.html",
+        "textBytes": 803176,
+        "textSha256": "6d042cc663fad4b7f2c1320a54dc3831a6c5fd01d035edc308309400608d047b"
       }
     ]
   },
@@ -119,7 +131,10 @@
         "bytes": 463602,
         "sha256": "f96763bc2dd45da56f143ff4f298728d3ba62191f7d50ca30f1523c668dd5163",
         "pages": 54,
-        "archivedAt": "2026-10-04"
+        "archivedAt": "2026-10-04",
+        "textPath": "documents/doc-007-text.html",
+        "textBytes": 95503,
+        "textSha256": "fd15fe801b368b5e7edbc8dbe08de28bd9420c1714d596f81613be19f79e44c5"
       }
     ]
   },

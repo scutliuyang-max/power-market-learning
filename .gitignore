@@ -8,3 +8,6 @@ Thumbs.db
 .openai/
 .sites-runtime/
 *.tar.gz
+
+node_modules/
+dist/vendor/

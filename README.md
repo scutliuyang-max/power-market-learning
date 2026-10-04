@@ -61,3 +61,9 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a
 本批收录日期为 2026-10-04：18 条资料中 16 条已保存文件（5 份 PDF、11 份网页正文）。江苏两条因官方下载返回 403，明确保留为待下载条目。浙江条目为修订动态，山西 V15.0 为历史版本，各地尚未全部覆盖，也未自动确认文件最新有效性。
 
 更新文件时须核对官方正文与附件、保留历史版本、更新 manifest 及关联数据，并运行 `node tests/library.test.cjs`。该检查验证文件存在、原始字节大小和 SHA-256，避免上传遗漏或文件损坏。
+
+## 手机 PDF 阅读
+
+PDF 站内阅读默认使用 Mozilla PDF.js 兼容版，支持逐页、页码跳转、适应宽度和缩放；仅渲染当前页，画布不超过 400 万像素。同时提供逐页自动提取的文字阅读版，排版或扫描页可能提取不完整，原件图文优先。PDF 原件和已有 HTML 正文均保留。
+
+首次本地运行前执行 `python scripts/prepare-pdfjs.py` 下载带校验值的官方 PDF.js 发行包到 `dist/vendor/pdfjs/`，再运行 `node server.mjs`。GitHub Actions 在部署时执行同一构建，浏览器从本站加载阅读器、worker、字体和字符映射，不依赖第三方 CDN。
