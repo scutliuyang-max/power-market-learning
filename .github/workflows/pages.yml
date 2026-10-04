@@ -32,6 +32,9 @@ jobs:
           node --check dist/planner-ui.js
           node --check server.mjs
           node tests/planner.test.cjs
+          node --check dist/document-library.js
+          node --check dist/library-ui.js
+          node tests/library.test.cjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static website

@@ -53,3 +53,11 @@ node server.mjs
 ## 官方部署参考
 
 https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+## 站内文件资料库
+
+`dist/documents/` 保存官方 PDF 原件与单独排版的官方网页正文留存，读者可在规则库直接阅读和下载，无需 ChatGPT 账户。PDF 不改动原始字节；HTML 留存包含来源、类型与收录日期，并禁用脚本。原始附件链接、文件大小、页数和 SHA-256 保存在 `dist/documents/manifest.json`，`dist/document-library.js` 将文件关联到规则条目。
+
+本批收录日期为 2026-10-04：18 条资料中 16 条已保存文件（5 份 PDF、11 份网页正文）。江苏两条因官方下载返回 403，明确保留为待下载条目。浙江条目为修订动态，山西 V15.0 为历史版本，各地尚未全部覆盖，也未自动确认文件最新有效性。
+
+更新文件时须核对官方正文与附件、保留历史版本、更新 manifest 及关联数据，并运行 `node tests/library.test.cjs`。该检查验证文件存在、原始字节大小和 SHA-256，避免上传遗漏或文件损坏。
