@@ -23,7 +23,7 @@ try{
  const entries=await fetch('documents/manifest.json').then(r=>{if(!r.ok)throw Error('manifest');return r.json()});
  const entry=entries.find(d=>d.id===entryId),file=entry?.files?.find(f=>f.format==='PDF原件');
  if(!file||!/^documents\/doc-\d{3}\.pdf$/.test(file.path))throw Error('Document unavailable');
- document.title=entry.title+' · 网页阅读';$('title').textContent=entry.title;$('back').href='index.html#rules/'+entry.id;
+ document.title=entry.title+' · YQEnergyTech';$('title').textContent=entry.title;$('back').href='index.html#rules/'+entry.id;
  $('download').href=file.path;$('download').hidden=false;
  if(file.textPath){$('textLink').href=file.textPath;$('textLink').hidden=false}
  const lib=await import('./vendor/pdfjs/pdf.mjs');lib.GlobalWorkerOptions.workerSrc=new URL('./vendor/pdfjs/pdf.worker.mjs',import.meta.url).href;

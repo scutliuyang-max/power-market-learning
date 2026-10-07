@@ -3,7 +3,7 @@ let completed=[];try{const saved=JSON.parse(localStorage.getItem('power-learning
 let selectedLab='energy';let quizPassed=false;
 const labNames={energy:['电力 × 时间 = 电量','基础 · 单位与电费'],clearing:['单节点市场出清','进阶 · 边际价格'],contract:['中长期合同差价','进阶 · 价格风险'],settlement:['日前与实时两结算','进阶 · 偏差成本']};
 const fmt=(n)=>Number(n).toLocaleString('zh-CN',{maximumFractionDigits:2});
-function heading(title,sub,eye='POWER MARKET ACADEMY'){return `<div class="page-heading"><div><div class="eyebrow">${eye}</div><h1>${title}</h1><p class="subtitle">${sub}</p></div><span class="date-label">学习工作台</span></div>`}
+function heading(title,sub,eye='YQENERGYTECH'){return `<div class="page-heading"><div><div class="eyebrow">${eye}</div><h1>${title}</h1><p class="subtitle">${sub}</p></div><span class="date-label">学习工作台</span></div>`}
 function home(){learningHome()}
 function courses(){learningCourses()}
 function openLesson(id){learningLesson(id)}

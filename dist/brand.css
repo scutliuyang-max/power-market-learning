@@ -1,0 +1,18 @@
+.brand{gap:9px;font-size:15.5px;line-height:1.25;letter-spacing:-.35px}
+.brand .logo{display:block;width:36px;height:36px;flex:0 0 36px;background:transparent;border-radius:0}
+.brand .logo img{display:block;width:100%;height:100%}
+.brand-wordmark{display:block;font-weight:650}
+.brand-wordmark em{font-style:normal;color:var(--green)}
+.brand small{display:block;margin-top:6px;font-size:9px;font-weight:400;letter-spacing:.55px;line-height:1.4}
+.header-brand{display:none}
+footer .footer-brand{font-weight:600;letter-spacing:-.2px;color:var(--ink)}
+@media(max-width:720px){
+ .header-left{min-width:0;gap:9px}
+ .menu-button{margin-right:0}
+ .header-brand{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:650;letter-spacing:-.35px;white-space:nowrap;color:var(--ink)}
+ .header-brand img{display:block;width:25px;height:25px;flex-shrink:0}
+ .header-left #breadcrumb{display:none}
+ .sidebar .brand .logo{width:36px;height:36px}
+ .brand small{font-size:10px}
+}
+@media(max-width:350px){.header-brand{gap:5px;font-size:12px}.header-brand img{width:23px;height:23px}.header-left{gap:7px}.shell>header{padding-inline:12px}}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">YQEnergyTech</title>
+  <rect width="64" height="64" rx="16" fill="#142f32"/>
+  <path d="M11 18 22 31 31 18M22 31v15" fill="none" stroke="#f2faf7" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="44" cy="31" r="12" fill="none" stroke="#66e3bd" stroke-width="4.5"/>
+  <path d="m50 39 7 7" fill="none" stroke="#66e3bd" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="m46 24-7 10h5l-2 5 7-10h-5z" fill="#f2faf7"/>
+</svg>
