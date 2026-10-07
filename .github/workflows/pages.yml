@@ -46,6 +46,8 @@ jobs:
           node --check dist/learning.js
           node --check dist/workspace-ui.js
           node tests/learning.test.cjs
+          node --check dist/lesson-animations.js
+          node tests/animations.test.cjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static website
