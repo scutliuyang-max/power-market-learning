@@ -48,6 +48,13 @@ jobs:
           node tests/learning.test.cjs
           node --check dist/lesson-animations.js
           node tests/animations.test.cjs
+          node --check dist/curriculum-content.js
+          node --check dist/resource-content.js
+          node --check dist/international-content.js
+          node --check dist/world-content.js
+          node --check dist/curriculum.js
+          node --check dist/academy-ui.js
+          node tests/academy.test.cjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static website
